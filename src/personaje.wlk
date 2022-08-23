@@ -27,4 +27,5 @@ object mario{
 	method estaFeliz(){
 		return valorRecolectado >= 50 or ultimoEncontrado.altura() >=10
 	}
+	method valorRecolectado() = valorRecolectado
 }

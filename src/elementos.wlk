@@ -11,6 +11,7 @@ object castillo {
 	method recibirTrabajo(){
 		nivelDefensa = 200.min(nivelDefensa+20)
 	}
+	method nivelDefensa() = nivelDefensa
 }
 
 object aurora {
@@ -23,7 +24,7 @@ object aurora {
 	}
 	method valorOtorgado() = 15
 	method recibirTrabajo(){}
-
+	method estaViva() = estaViva
 }
 
 object tipa {
